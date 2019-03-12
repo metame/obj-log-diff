@@ -1,6 +1,6 @@
 {
   "name": "obj-log-diff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "compares two objects and logs the differences",
   "main": "dist/objLogDiff.js",
   "scripts": {
