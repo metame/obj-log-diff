@@ -1,12 +1,13 @@
 {
   "name": "obj-log-diff",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "compares two objects and logs the differences",
-  "main": "src/objLogDiff.ts",
+  "main": "dist/objLogDiff.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "parcel build src/objLogDiff.ts",
-    "dev": "parcel src/objLogDiff.ts"
+    "dev": "parcel src/objLogDiff.ts",
+    "fix": "tslint --fix --project ./"
   },
   "author": "Michael J Erwin <michaeljameserwin@gmail.com>",
   "license": "MIT",
